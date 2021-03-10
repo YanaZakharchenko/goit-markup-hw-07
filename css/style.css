@@ -217,7 +217,7 @@ img {
   padding: 10px 32px;
 }
 
-/* СЕКЦИЯ 1 */
+/* SECTION 1 */
 
 .section-size {
   padding: 94px 0;
@@ -228,11 +228,11 @@ img {
   justify-content: space-between;
 }
 
-.section-item {
+.section-list__item {
   max-width: 270px;
 }
 
-.section-icons {
+.section-list__icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +244,7 @@ img {
   margin-bottom: 30px;
 }
 
-.section-title {
+.section-list__title {
   font-size: inherit;
   text-transform: uppercase;
 
@@ -252,7 +252,7 @@ img {
   margin-bottom: 10px;
 }
 
-.section-text {
+.section-list__text {
   font-weight: 400;
   line-height: 1.7;
 

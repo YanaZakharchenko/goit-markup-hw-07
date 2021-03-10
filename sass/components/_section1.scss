@@ -1,0 +1,39 @@
+.section-size {
+  padding: 94px 0;
+}
+
+.section-list {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    max-width: 270px;
+  }
+}
+
+.section-list__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-original);
+  border-radius: 4px;
+  max-width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.section-list__title {
+  font-size: inherit;
+  text-transform: uppercase;
+
+  color: var(--color-dark);
+  margin-bottom: 10px;
+}
+
+.section-list__text {
+  font-weight: 400;
+  line-height: 1.7;
+
+  color: var(--color-gray);
+}
