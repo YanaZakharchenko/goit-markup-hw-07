@@ -6,7 +6,7 @@
   margin-right: auto;
 }
 
-.header-border {
+.header--border {
   border-bottom: var(--border-portfolio);
 }
 
@@ -37,6 +37,19 @@
   padding: 10px 32px;
 }
 
+.universal-btn--footer {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 29px;
+}
+
+.universal-btn--form {
+  display: flex;
+  margin: auto;
+  padding: 10px 55px;
+  margin-top: 30px;
+}
+
 .title-second {
   font-size: 36px;
   text-align: center;
@@ -57,4 +70,16 @@
 .title-third--color {
   color: var(--color-white);
   margin-bottom: 0;
+}
+
+.footer__size {
+  margin-right: 85px;
+}
+
+.footer__title {
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 20px;
 }
