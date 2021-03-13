@@ -661,6 +661,10 @@ img {
   border: var(--border-clients-hover);
 }
 
+.clients-list__icon {
+  fill: inherit;
+}
+
 /* ФУТЕР */
 .footer {
   background-color: var(--color-graphite);

@@ -22,4 +22,8 @@
       border: var(--border-clients-hover);
     }
   }
+
+  &__icon {
+    fill: inherit;
+  }
 }
